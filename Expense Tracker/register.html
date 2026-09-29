@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page </title>
+    <link rel="stylesheet" href="register.css">
+    
+</head>
+<body>
+    <div id="register-box">
+
+        <h2>Register</h2>
+
+        <form id="registerForm" novalidate>
+            <label>Name </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <p id="nameError"></p>
+            <br>
+            
+
+            <label>Email </label>
+            <input type="email" id="email" placeholder="Enter your Email">
+            <p id="emailError"></p>
+            <br>
+            
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <p id="passwordError"></p>
+            <br>
+            
+
+            <label>Confirm-Password</label>
+            <input type="password" id="confirmpassword" placeholder="Confirm your password">
+            <p id="confirmError"></p>
+            <br>
+            
+
+            <button type="submit">Register</button>
+            <p id="SuccessMessage"></p>
+
+
+        
+        </form>
+        <p> Already have an account?
+    <a href="index.html">Login here</a>
+</p>
+
+
+    </div>
+    <script src="register.js"></script>
+    
+</body>
+</html>

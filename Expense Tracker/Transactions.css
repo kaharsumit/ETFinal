@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #757D6F;
+}
+
+
+#all-transactions{
+    width:800px;
+    max-width: 1000px;
+    margin:40px auto;
+    padding:25px;
+    background-color: #F5EFE3;
+    border-radius:15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); 
+}
+
+
+#all-transactions h2{
+
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#all-transactions table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+#all-transactions  th,
+#all-transactions  td{
+    padding:12px 15px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+}
+
+#all-transactions th{
+    font-weight: bold;
+}
+
+.income{
+    color:rgb(15, 232, 15);
+    font-weight:bold;
+}
+
+.expense{
+    color:red;
+    font-weight:bold;
+}
+
+button{
+
+    width:200px;
+    height:45px;
+    font-size: 17px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(192, 174, 174);
+    border:none;
+    border-radius:1rem;
+    cursor:pointer;
+    transition: transform 0.2s ease;
+     
+
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
+#backdashboard{
+   text-align:center;
+   margin-top:20px;
+
+}
+
+#pagination button{
+    width:auto;
+    min-width: 40px;
+    height:35px;
+    padding: 5px 10px;
+    font-size:14px;
+
+}
+
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;;
+}
+
+
+

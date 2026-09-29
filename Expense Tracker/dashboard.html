@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <header>
+
+        <div id="user-info">
+            <a href="profile.html">
+               <h1 id="userName">Hi, Sumit 👋</h1>
+                </a>
+
+        </div>
+    
+
+
+        </header>
+
+        <div id="welcome">
+            <h1>Welcome to Expense Tracker</h1>
+            <p>Track your income and expense easily.</p>
+        </div>
+
+        <div id="summary">
+
+            <div class="card">
+                <h3>Total Balance</h3>
+                 <p id="totalBalance"></p>   <!--  ruppe symbol add key ctrl+alt+4 -->
+            </div>
+
+            <div class="card">
+                <h3>Total Income</h3>
+                <p id="totalIncome"> </p>
+            </div>
+
+            <div class="card">
+                <h3>Total Expense</h3>
+                <p id="totalExpense"></p>
+            </div>
+
+
+        </div>
+
+        <div id="recent-transaction">
+
+            <h2>Recent Transactions</h2>
+
+            <table>
+
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                </tr>
+
+                <tbody id="recentTransactions"></tbody>
+                
+            </table>
+            <div id="seeAll">
+            <a href="transactions.html">
+                <button type="button" >See All Transactions </button>
+            </a>
+            </div>
+
+        </div>
+
+        <div id="add-transaction">
+            <a href="transaction.html">
+                <button type="button"> Add Transaction</button>
+                </a>
+        </div>
+
+        <script src="dashboard.js"></script>
+
+
+    
+    
+</body>
+</html>
